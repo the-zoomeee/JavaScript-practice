@@ -1,0 +1,54 @@
+// Create JavaScript program for the following using appropriate variables, JavaScript inbuilt functions and control structures.
+// * To accept integer and display the result by multiplying it with 3.
+// * To accept two integers and display larger number of them.
+// * To check whether, user entered number is positive or negative.
+
+<html>
+    <head>
+        <title>
+            sop1
+        </title>
+
+        <script lang="javascript">
+            var num1,num2,result;
+            num1 = prompt("Enter the number : ");
+            num1 = parseFloat(num1);
+            result = 3*num1;
+            document.write("Result multiply by 3 : "+result+"<br>");
+
+            num1 = prompt("Enter the frst number : ");
+            num2 = prompt("Enter the second number : ");
+
+            num1 = parseFloat(num1);
+            num2 = parseFloat(num2);
+            if (num1 > num2) {
+                document.write(num1 +" is greater <br>");
+            }
+            else if(num2 > num1)
+            {
+                document.write(num2+ " is greater <br>");
+            }
+            else
+            {
+                document.write("Both number are same <br>");
+            }
+
+            num1 = prompt("Enter the number : ");
+            num1 = parseFloat(num1);
+
+            if (num1 > 0) {
+                document.write(num1+ " is positive <br>");
+            }
+            else if (num1 < 0) {
+                document.write(num1+" is Negative<br>");
+            }
+            else
+            {
+                document.write("Number is Zero <br>");
+            }
+
+        </script>
+        </head>
+        <body>
+        </body>
+</html>
