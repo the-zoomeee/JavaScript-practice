@@ -1,0 +1,32 @@
+// Count the number of vowels in the string
+
+<html>
+<head>
+<title>
+String functions
+</title>
+</head>
+<body>
+<form name="f1">
+Enter your name
+<input type="Text" name="t1"><br><br>
+<input type="button" name="btncheck" value="count vowels" onClick="count()">
+</form>
+</body>
+<script type="text/javascript">
+function count()
+{
+var s,i,ch,c;
+c=0;
+s=f1.t1.value;
+for(i=0;i<=s.length;i++)
+{
+ch=s.charAt(i);
+if(ch=="A"||ch=="E"||ch=="I"||ch=="O"||ch=="U"||ch=="a"||ch=="e"||ch=="i"||ch=="o"||ch=="u")
+c++;
+}
+alert("Number of vowels in string are:"+c);
+}
+</script>
+</body>
+</html>
