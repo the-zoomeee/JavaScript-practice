@@ -1,0 +1,33 @@
+// Create JavaScript program for the following using appropriate variables, JavaScript inbuilt string functions and control structures.
+// * To accept string and calculate its length.
+// * To accept string and display it into lowercase and uppercase.
+// * To check whether the length of string is 4 or greater.
+
+<!DOCTYPE html>
+<html>
+    <body>
+        <script lang="javascript">
+            var str1,len,lower,upper;
+            str1 = prompt("Enetr the string : ");
+            document.write("String : "+ str1+ "<br>");
+
+            len = str1.length;
+            document.write("Length : "+len+"<br>");
+
+            upper = str1.toUpperCase();
+            lower = str1.toLowerCase();
+            document.write("Upper case : "+upper+"<br>");
+            document.write("Lower case : "+lower+"<br>");
+
+            if (len >= 4) 
+            {
+                document.write("Yes, it is greater then 4 or it is 4 <br>");
+            }
+            else
+            {
+                document.write("No, it is less then 4<br>");
+            }
+
+    </script>
+    </body>
+</html>
