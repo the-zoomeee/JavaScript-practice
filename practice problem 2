@@ -1,0 +1,41 @@
+// Create JavaScript program for the following using appropriate variables, JavaScript inbuilt functions and control structures.
+// * To accept two positive or negative numbers and check whether they are equal or not.
+// * To accept number and display square of it.
+// * To check whether the accepted integer is multiple of 3 or multiple of 7.
+
+<html>
+<head>
+<title>
+</title>
+<body>
+<script type="text/javascript">
+
+var a=parseInt(prompt("enter the number for vhecking the equality"));
+var b=parseInt(prompt("enter the number for vhecking the equality"));
+if(a==b)
+{
+document.write("numbers are equal:"+"<br>");
+}
+else
+{
+document.write("numbers are not equal:"+"<br>");
+}
+var sqr=parseInt(prompt("enter the number square"));
+sqr=sqr*sqr;
+document.write("the square is :"+sqr"<br>");
+var d=parseInt(prompt("enter the number multiple 3 or 7"));
+if(d%3==0)
+{
+document.write("the number multiple 3 :"+d"<br>");
+}
+else(d%7==0)
+{
+document.write("the number multiple 7 :"+d"<br>");
+}
+else
+{
+document.write("the number multiple 3 and 7 :"+d"<br>");
+}
+</script>
+</body>
+</html>
