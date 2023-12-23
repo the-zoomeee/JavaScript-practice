@@ -1,0 +1,43 @@
+// addition of two number
+<!DOCTYPE html>
+<html>
+<head> <title> First </title>
+</head>
+<body>
+<center>
+<script type="text/javascript">
+var A,B,C;
+A=parseInt(prompt("ENTER VALUE FOR A"));
+B=parseInt(prompt("ENTER VALUE FOR B"));
+C=A+B;
+alert(C);
+
+var X,Y,Z;
+X=parseInt(prompt("ENTER VALUE FOR X"));
+Y=parseInt(prompt("ENTER VALUE FOR Y"));
+Z=X-Y;
+alert(Z);
+
+var P,Q,R;
+P=parseInt(prompt("ENTER VALUE FOR P"));
+Q=parseInt(prompt("ENTER VALUE FOR Q"));
+R=P*Q;
+alert(R);
+
+var L,M,N;
+L=parseInt(prompt("ENTER VALUE FOR L"));
+M=parseInt(prompt("ENTER VALUE FOR M"));
+N=L/M;
+alert(N);
+
+document.write("<H1> <MARK>BHARAT & VIKAS"+"<MARK>"+"</H1>")
+
+</script>
+</center>
+</body>
+</html>
+
+
+
+
+
