@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Area of circle </title>
+</head>
+<body bgcolor=yellow>
+<h1> Program to calculate area of circle </h1>
+<script lang="javascript">
+var r,area;
+r=prompt("Enter the radius of circle");
+area=3.14*r*r;
+document.write("<h1> you entered radius:</h1>"+r);
+document.write("<h1> Area of circle:</h1>"+area);
+</script>
+</body>
+</html>
+
