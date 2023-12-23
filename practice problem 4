@@ -1,0 +1,91 @@
+// Create event driven JavaScript programs for the following using appropriate variables, JavaScript inbuilt functions and control structures.
+// * To accept number and validate if the given value is a number or not by clicking on the button
+// * To calculate addition and division of two numbers.
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            "SOP 4"
+        </title>
+
+        <script lang="javascript">
+            function check()
+            {
+                var data = frm1.t1.value;
+
+                if (!isNaN(data)) {
+                    alert("Given value is number");
+                }
+                else
+                {
+                    alert("Given data is NOT a number");
+                }
+            }
+
+            function add()
+            {
+                var num1,num2,result;
+                num1 = frm2.n1.value;
+                num2 = frm2.n2.value;
+
+                num1 = parseFloat(num1);
+                num2 = parseFloat(num2);
+                result = num1 + num2;
+                alert("Addition = "+result);
+            }
+
+            function devi()
+            {
+                var num1,num2,result;
+                num1 = frm2.n1.value;
+                num2 = frm2.n2.value;
+
+                num1 = parseFloat(num1);
+                num2 = parseFloat(num2);
+                result = num1 / num2;
+                alert("Division = "+result);
+            }
+        </script>
+
+    </head>
+    <body>
+        <center>
+            <table border="2">
+                <tr>
+                    <td>
+                        <form name="frm1">
+                            Enter Value :- <input type="text" name="t1">
+                            <br><br>
+                            <button type="button" name="b1" onclick="check()">
+                                Check
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+            <br><br>
+            <table border="2">
+                <tr>
+                    <td>
+                        <form name="frm2">
+                            1<sup>st</sup> Number :- <input type="text" name="n1">
+                            <br>
+                            2<sup>nd</sup> Number :- <input type="text" name="n2">
+                            <br><br>
+                            <button type="button" name="c1" onclick="add()">
+                                Addition
+                            </button>
+                            &nbsp &nbsp
+                            <button type="button" name="c2" onclick="devi()">
+                                Divide
+                            </button>
+                            &nbsp &nbsp
+                            <input type="reset">
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
